@@ -39,4 +39,4 @@ Reload TMUX environment:
 If format strings are added to `status-right`, they should now be visible.
 
 ## Special Credit
-This plugin is based on the various plugins in [https://github.com/tmux-plugins]("tmux-plugins").
+This plugin is based on the various plugins in [tmux-plugins](https://github.com/tmux-plugins) Github page.
