@@ -2,8 +2,6 @@
 
 This is a `tmux` plugin that displays the system load average in the last 1, 5 and 15 minutes.
 
-**Note**: This is a work in progress.
-
 ### Usage
 
 Add `#{load_average}` format string to existing `status-right` tmux option.
