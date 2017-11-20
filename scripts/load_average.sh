@@ -5,7 +5,7 @@ CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source "$CURRENT_DIR/helpers.sh"
 
 print_load_average() {
-    printf "$(uptime | awk -F "average:" '{print $2}')"
+    printf "$(uptime | awk -F "averages?:" '{print $2}')"
 }
 
 main() {
